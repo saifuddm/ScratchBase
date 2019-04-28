@@ -6,20 +6,15 @@ All my scratch code from various languages.
 + **Projects**
 
 
----
-
 ## Pyhton
 
 + **Source**
----
 ## Ruby
 
 + **Source**
----
 ## Java
 
 + **Source**
----
 ## Web Dev
 
 1. **JS**
@@ -32,6 +27,5 @@ All my scratch code from various languages.
 1. **HTML**
 2. **CSS**
 
----
 
 
