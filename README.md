@@ -1,26 +1,27 @@
 # ScratchBase
----
+
 All my scratch code from various languages.
 + **Learning Material**
 + **New/Test Code**
 + **Projects**
 
+
 ---
 
 ## Pyhton
----
-+ **Source**
 
++ **Source**
+---
 ## Ruby
----
-+ **Source**
 
++ **Source**
+---
 ## Java
----
-+ **Source**
 
-## Web Dev
++ **Source**
 ---
+## Web Dev
+
 1. **JS**
 2. **React**
 3. **Angular**
