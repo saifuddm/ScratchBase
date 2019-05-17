@@ -8,3 +8,6 @@ Learning more about HTML5 and CSS3
 #Editor/Sofware Used
 VsCode
 Brackets
+
+#Sections
+Sectioning it off based on the lecture topic
