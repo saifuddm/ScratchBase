@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Guy in lecuter uses this class to fix the thrid box from going to the right */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;   
+    border: 10px solid #97ffd7;
+}
+
+body {
+    font-family: Helvetica Neue, Arial;
+}
+
+h1, h2 {
+    color: #84ac2a;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-text{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#thirdPara{
+    font-size: 22px;
+}
+
+.container {
+    width: 900px;
+    border: 3px solid #3b2dde;
+/*    margin: top right bottom left*/
+    margin: 20px auto 0 auto;
+}
+
+.blockpost {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    border: 3px solid #e61212;
+}
+
+.other-post {
+    width: 25%;
+    float: right;
+    border: 3px solid #7e7e7e;
+}
+
+/* this clear property achives the same thing as that fix*/
+.last-post {
+    padding-top: 20px;
+    border: 3px solid #7e7e7e;
+    clear: both;
+}
+
+
+
+.test-post {
+    border: 2px solid #ff0000;
+        
+}
