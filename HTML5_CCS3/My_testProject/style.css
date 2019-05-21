@@ -53,14 +53,15 @@
     background-image:linear-gradient(to bottom, #77caef, rgba(222, 122, 49, 0.88) );
     color: aliceblue;
     padding-bottom: 30px;
-    font-size: 22px;
+    font-size: 1.5vmax;
 }
 .courseBlock h2 {
-    font-size: 25px;
+    font-size: 2vmax;
 }
 
 a {
    all: inherit;
+    cursor: pointer; 
 }
 
 ion-icon {
