@@ -15,18 +15,17 @@
                     Murtaza Saifuddin
                 </h1>
                 <ul type="none">
-                    <li>Job Experience</li>
-                    <li><button type="button"><a href="#projects" id="projectButton">Projects</a></button></li>
-                    
-                    <li><button type="button" id="courseButton"><a href="#courses">Courses</a></button></li>
-                    <li id="aboutMe">About Me</li>
+                    <li><button type="button" onclick="showJobs()">Job Experience</button></li>
+                    <li><button type="button" onclick="showProjects()">Projects</button></li>
+                    <li><button type="button" onclick="showCourses()">Courses</button></li>
+                    <li><button type="button" onclick="showAbout()">About Me</button></li>
                 </ul>
             </div>
         </div>
 <!--        <div class="clearfix"></div>-->
-        <div class="section" id="courses">
-            <h2><ion-icon name="book"></ion-icon></h2>
-            <div class="courseBlock">
+        <div class="section" id="jobs">
+            <h2>Job Experience</h2>
+            <div class="courseBlock" id = "jobsContentBlock">
                 <h2>
                     First Year
                 </h2>
@@ -62,8 +61,8 @@
         </div>
         
         <div class="section" id="projects">
-            <h2><ion-icon name="book"></ion-icon></h2>
-            <div class="courseBlock">
+            <h2>Projects</h2>
+            <div class="courseBlock" id = "projectsContentBlock">
                 <h2>
                     First Year
                 </h2>
@@ -98,6 +97,79 @@
             </div>
         </div>
         
+        <div class="section" id="courses">
+            <h2><ion-icon name="book"></ion-icon></h2>
+            <div class="courseBlock" id="courseContentBlock">
+                <h2>
+                    First Year
+                </h2>
+                <ul type="none">
+                    <li>Math 1</li>
+                    <li>Math 2</li>
+                    <li>Lin Alg</li>
+                    <li>Physics</li>
+                </ul>
+            </div>
+            <div class="courseBlock">
+                <h2>
+                    Second Year
+                </h2>
+                <ul type="none">
+                    <li>Math 1</li>
+                    <li>Math 2</li>
+                    <li>Lin Alg</li>
+                    <li>Physics</li>
+                </ul>
+            </div>
+            <div class="courseBlock">
+                <h2>
+                    Third Year
+                </h2>
+                <ul type="none">
+                    <li>Math 1</li>
+                    <li>Math 2</li>
+                    <li>Lin Alg</li>
+                    <li>Physics</li>
+                </ul>
+            </div>
+        </div>
+             
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <div class="courseBlock" id = "aboutContentBlock">
+                <h2>
+                    First Year
+                </h2>
+                <ul type="none">
+                    <li>Math 1</li>
+                    <li>Math 2</li>
+                    <li>Lin Alg</li>
+                    <li>Physics</li>
+                </ul>
+            </div>
+            <div class="courseBlock">
+                <h2>
+                    Second Year
+                </h2>
+                <ul type="none">
+                    <li>Math 1</li>
+                    <li>Math 2</li>
+                    <li>Lin Alg</li>
+                    <li>Physics</li>
+                </ul>
+            </div>
+            <div class="courseBlock">
+                <h2>
+                    Third Year
+                </h2>
+                <ul type="none">
+                    <li>Math 1</li>
+                    <li>Math 2</li>
+                    <li>Lin Alg</li>
+                    <li>Physics</li>
+                </ul>
+            </div>
+        </div>
         
         <script src="script.js"></script>
 <!--        To enable the icon framework-->
