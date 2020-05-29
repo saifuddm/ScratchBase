@@ -11,3 +11,7 @@ npm install -D nodemon
 
 To install a node dependencies for project from the package.json
 npm install
+
+To keep auto restarting the http server 
+should have a dev script that has nodemon
+npm run dev
